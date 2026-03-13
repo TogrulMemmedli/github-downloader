@@ -39,9 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     donateBtn.addEventListener('click', () => {
+        window.open('https://github.com/TogrulMemmedli/github-downloader', '_blank');
+
         chrome.storage.sync.set({ hasDonated: true }, () => {
             donateBtn.style.display = 'none';
-            thanksMsg.innerText = "Thank you so much! 💖 Your support keeps us going!";
+            thanksMsg.innerText = "Thank you for starring the project! 🌟 Your support means a lot!";
             thanksMsg.style.display = 'block';
         });
     });
