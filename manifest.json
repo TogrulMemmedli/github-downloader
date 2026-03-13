@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Downloader",
+  "version": "1.0",
+  "description": "An extension to download specific files or entire folders from any GitHub repository without cloning the whole project.",
+  "permissions": [
+    "downloads",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["jszip.min.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
