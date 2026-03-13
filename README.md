@@ -43,3 +43,17 @@ The "💛 Support this project" button in the extension popup will direct you to
 
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE).
+
+## ⭐ Star History
+
+<div align="center">
+  <a href="https://star-history.com/#TogrulMemmedli/CLI-Anything&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=TogrulMemmedli/github-downloader&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=TogrulMemmedli/github-downloader&type=Date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=TogrulMemmedli/github-downloader&type=Date" />
+    </picture>
+  </a>
+</div>
+
+---
